@@ -20,7 +20,7 @@ struct ContentView: View {
                 Color.white.ignoresSafeArea()
                 VStack(alignment: .leading, spacing: 40) {
                         HStack{
-                            Text("Good morning!").font(.title2)
+                            Text("Good morning! ").font(.title2)
                             Spacer()
                             Image("someonesPortrait").resizable().clipShape(Circle()).frame(width: 40, height: 50)
                         }
